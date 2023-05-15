@@ -1,0 +1,5 @@
+print('Введите путь к файлу')
+str = input()
+s = str.split("\\")
+print('\n'.join(s))
+#print(*s, sep='\n')
